@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-11 19:35:25.152198",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "default_short_leave_type",
+  "column_break_kdyw",
+  "number_of_leave_allocation",
+  "shift_type_settings_for_process_attendance_section",
+  "process_attendance_strictly_based_on_shift",
+  "special_work_settings_section",
+  "in_time_buffer",
+  "out_time_buffer"
+ ],
+ "fields": [
+  {
+   "fieldname": "shift_type_settings_for_process_attendance_section",
+   "fieldtype": "Section Break",
+   "label": "Shift Type Settings For Process Attendance"
+  },
+  {
+   "default": "0",
+   "fieldname": "process_attendance_strictly_based_on_shift",
+   "fieldtype": "Check",
+   "label": "Process Attendance Strictly Based On Shift"
+  },
+  {
+   "fieldname": "special_work_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Special Work Settings"
+  },
+  {
+   "description": "In Hours",
+   "fieldname": "in_time_buffer",
+   "fieldtype": "Float",
+   "label": "In Time Buffer"
+  },
+  {
+   "description": "In Hours",
+   "fieldname": "out_time_buffer",
+   "fieldtype": "Float",
+   "label": "Out Time Buffer"
+  },
+  {
+   "fieldname": "default_short_leave_type",
+   "fieldtype": "Link",
+   "label": "Default short Leave Type",
+   "options": "Leave Type"
+  },
+  {
+   "fieldname": "column_break_kdyw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.default_short_leave_type",
+   "fieldname": "number_of_leave_allocation",
+   "fieldtype": "Float",
+   "label": "Number Of Leave Allocation",
+   "mandatory_depends_on": "eval:doc.default_short_leave_type",
+   "precision": "2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-30 10:19:19.251726",
+ "modified_by": "Administrator",
+ "module": "Hr India Compliance",
+ "name": "Leave And Attendance Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

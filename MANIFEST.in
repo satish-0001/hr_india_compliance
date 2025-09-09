@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hr_india_compliance *.css
+recursive-include hr_india_compliance *.csv
+recursive-include hr_india_compliance *.html
+recursive-include hr_india_compliance *.ico
+recursive-include hr_india_compliance *.js
+recursive-include hr_india_compliance *.json
+recursive-include hr_india_compliance *.md
+recursive-include hr_india_compliance *.png
+recursive-include hr_india_compliance *.py
+recursive-include hr_india_compliance *.svg
+recursive-include hr_india_compliance *.txt
+recursive-exclude hr_india_compliance *.pyc

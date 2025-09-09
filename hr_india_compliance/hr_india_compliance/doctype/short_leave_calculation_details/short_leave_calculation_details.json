@@ -1,0 +1,159 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 16:16:14.668990",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "employee_name",
+  "column_break_seamf",
+  "attendance_date",
+  "leave_type_for_half_day",
+  "column_break_n749i",
+  "designation",
+  "department",
+  "section_break_twmja",
+  "cost_center",
+  "plant",
+  "column_break_cavsk",
+  "shift_type",
+  "remarks",
+  "column_break_96j6e",
+  "biometric_id",
+  "attendance_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "employee.designation",
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Designation",
+   "options": "Designation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_seamf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "employee.department",
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_twmja",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "employee.payroll_cost_center",
+   "fieldname": "cost_center",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Cost Center",
+   "options": "Cost Center",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "employee.attendance_device_id",
+   "fieldname": "biometric_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Biometric ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_n749i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attendance_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Attendance Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "leave_type_for_half_day",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Leave Type For Half-Day",
+   "options": "Leave Type"
+  },
+  {
+   "fieldname": "column_break_96j6e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shift_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Shift Type",
+   "options": "Shift Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_cavsk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "employee.branch",
+   "fieldname": "plant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Plant",
+   "options": "Branch",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Remarks",
+   "read_only": 1
+  },
+  {
+   "fieldname": "attendance_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Attendance Id",
+   "options": "Attendance",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-03 12:37:13.510117",
+ "modified_by": "Administrator",
+ "module": "Hr India Compliance",
+ "name": "Short Leave Calculation Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

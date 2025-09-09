@@ -1,0 +1,348 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"YWC81Q60SL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\">Your Shortcuts</span><br>\",\"col\":12}},{\"id\":\"NAiQYywHXs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monthly Meter Reading\",\"col\":3}},{\"id\":\"3ZfOtNHBd8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Special Work Request\",\"col\":3}},{\"id\":\"hgqihxM8t-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Special Work Reconciliation\",\"col\":3}},{\"id\":\"em3XCZ4Ywo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Deputation Request\",\"col\":3}},{\"id\":\"jN8VKYekoP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Deputation Work Reconciliation\",\"col\":3}},{\"id\":\"fYGvnQQs1k\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Short Leave Calculation\",\"col\":3}},{\"id\":\"2fyQVUvDq1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QAWRPNl3_u\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\">Reports &amp; Masters</span><br>\",\"col\":12}},{\"id\":\"IrPACkWkUk\",\"type\":\"card\",\"data\":{\"card_name\":\"Master\",\"col\":4}},{\"id\":\"TdoFVwiYb_\",\"type\":\"card\",\"data\":{\"card_name\":\"Leave And Attendance\",\"col\":4}},{\"id\":\"MFyHyjMFMq\",\"type\":\"card\",\"data\":{\"card_name\":\"Logs\",\"col\":4}},{\"id\":\"vx-0jGGR2o\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"o9UFHHcoO6\",\"type\":\"card\",\"data\":{\"card_name\":\"Additional Benefits\",\"col\":4}}]",
+ "creation": "2023-08-28 17:56:20.607024",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "income",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "HR India Compliance",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quarter",
+   "link_count": 0,
+   "link_to": "Quarter Master",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plant",
+   "link_count": 0,
+   "link_to": "Branch",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Accommodation Type",
+   "link_count": 0,
+   "link_to": "Accommodation Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Accommodation Register",
+   "link_count": 0,
+   "link_to": "Accommodation Register",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Logs",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Statistical Component Log",
+   "link_count": 0,
+   "link_to": "Statistical Component Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meter Reading Log",
+   "link_count": 0,
+   "link_to": "Meter Reading Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Attendance Checkin",
+   "link_count": 0,
+   "link_to": "Attendance Checkin",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Biometric Error Log",
+   "link_count": 0,
+   "link_to": "Biometric Error Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Meter Reading",
+   "link_count": 0,
+   "link_to": "Monthly Meter Reading",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Additional Benefits",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Statistical Payment Request",
+   "link_count": 0,
+   "link_to": "Statistical Payment Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave And Attendance",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Short Leave Calculation",
+   "link_count": 0,
+   "link_to": "Short Leave Calculation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shift Rotation",
+   "link_count": 0,
+   "link_to": "Shift Rotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shift Type",
+   "link_count": 0,
+   "link_to": "Shift Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shift Assignment",
+   "link_count": 0,
+   "link_to": "Shift Assignment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bulk Leave Encashment",
+   "link_count": 0,
+   "link_to": "Bulk Leave Encashment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 8,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Absenteeism",
+   "link_count": 0,
+   "link_to": "Daily Absenteeism",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "PF ECR Format",
+   "link_count": 0,
+   "link_to": "PF ECR Format",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Attendance Sheet Summary",
+   "link_count": 0,
+   "link_to": "Monthly Attendance Sheet Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bank Remittance With Branch",
+   "link_count": 0,
+   "link_to": "Bank Remittance With Branch",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Register Summary",
+   "link_count": 0,
+   "link_to": "Salary Register Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bank Remittance For Expense Claim",
+   "link_count": 0,
+   "link_to": "Bank Remittance For Expense Claim",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consolidated Salary Register",
+   "link_count": 0,
+   "link_to": "Consolidated Salary Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "PF ECR Report",
+   "link_count": 0,
+   "link_to": "PF ECR Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-05-06 16:21:43.603278",
+ "modified_by": "Administrator",
+ "module": "Hr India Compliance",
+ "name": "HR India Compliance",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "HR",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Employee"
+  }
+ ],
+ "sequence_id": 39.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Monthly Meter Reading",
+   "link_to": "Monthly Meter Reading",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Short Leave Calculation",
+   "link_to": "Short Leave Calculation",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Deputation Work Reconciliation",
+   "link_to": "Deputation Work Reconciliation",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Special Work Request",
+   "link_to": "Special Work Request",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Special Work Reconciliation",
+   "link_to": "Special Work Reconciliation",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Deputation Request",
+   "link_to": "Deputation Request",
+   "type": "DocType"
+  }
+ ],
+ "title": "HR India Compliance"
+}

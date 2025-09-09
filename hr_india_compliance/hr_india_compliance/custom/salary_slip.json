@@ -1,0 +1,35 @@
+{
+ "custom_fields": [
+ 
+ ],
+ "custom_perms": [
+
+ ],
+ "doctype": "Salary Slip",
+ "links": [
+  {
+   "creation": "2023-09-19 22:46:38.385748",
+   "custom": 1,
+   "docstatus": 0,
+   "group": null,
+   "hidden": 0,
+   "idx": 0,
+   "is_child_table": 0,
+   "link_doctype": "Statistical Component Log",
+   "link_fieldname": "voucher_no",
+   "modified": "2023-09-19 22:46:38.385748",
+   "modified_by": "Administrator",
+   "name": "691906372f",
+   "owner": "Administrator",
+   "parent": "Salary Slip",
+   "parent_doctype": null,
+   "parentfield": "links",
+   "parenttype": "Customize Form",
+   "table_fieldname": null
+  }
+ ],
+ "property_setters": [
+  
+ ],
+ "sync_on_migrate": 1
+}

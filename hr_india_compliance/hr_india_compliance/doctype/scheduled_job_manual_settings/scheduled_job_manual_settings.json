@@ -1,0 +1,80 @@
+{
+ "actions": [
+  {
+   "action": "app/rq-job",
+   "action_type": "Route",
+   "label": "View Background Job's"
+  }
+ ],
+ "allow_rename": 1,
+ "creation": "2024-03-05 08:26:16.570242",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_section",
+  "scheduled_job_type",
+  "from_date",
+  "to_date",
+  "run_job",
+  "column_break_ooaf"
+ ],
+ "fields": [
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "scheduled_job_type",
+   "fieldtype": "Autocomplete",
+   "label": "Scheduled Job Type"
+  },
+  {
+   "fieldname": "run_job",
+   "fieldtype": "Button",
+   "label": "Run Job"
+  },
+  {
+   "fieldname": "column_break_ooaf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To Date",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-05-21 20:21:21.293201",
+ "modified_by": "Administrator",
+ "module": "Hr India Compliance",
+ "name": "Scheduled Job Manual Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_seen": 1
+}
